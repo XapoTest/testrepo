@@ -1,1 +1,15 @@
-jiraSendBuildInfo branch: 'origin/main', site: 'xapo.atlassian.net'
+pipeline {
+     agent any
+     stages {
+         stage('Build') {
+             steps {
+                 echo 'Building...'
+             }
+             post {
+                 always {
+                     jiraSendBuildInfo site: 'xapo.atlassian.net'
+                 }
+             }
+         }
+     }
+ }
