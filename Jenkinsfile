@@ -7,7 +7,7 @@ pipeline {
              }
              post {
                  always {
-                     jiraSendBuildInfo site: 'xapo.atlassian.net', branch: 'origin/main'
+                     jiraSendBuildInfo site: 'xapo.atlassian.net', branch: 'SATP-11', 'SATP-8'
                  }
              }
          }
