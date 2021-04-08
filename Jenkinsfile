@@ -12,7 +12,7 @@ pipeline {
                      jiraSendBuildInfo site: 'xapo.atlassian.net', branch: 'SATP-7'
                  }
                  }
-             }
+             
          }
      }
  }
