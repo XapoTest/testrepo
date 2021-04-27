@@ -12,6 +12,8 @@ pipeline {
                      jiraSendBuildInfo site: 'xapo.atlassian.net', branch: 'SATP-7'
                      jiraSendBuildInfo site: 'xapo.atlassian.net', branch: 'SATP-14'
                      jiraSendBuildInfo site: 'xapo.atlassian.net', branch: 'SATP-15'
+                     jiraSendBuildInfo site: 'xapo.atlassian.net', branch: 'SATP-25'
+                    
                  }
                  }
              
